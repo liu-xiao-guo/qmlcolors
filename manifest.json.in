@@ -1,0 +1,17 @@
+{
+    "name": "qmlcolors.liu-xiao-guo",
+    "description": "description of qmlcolors",
+    "architecture": "@CLICK_ARCH@",
+    "title": "qmlcolors",
+    "hooks": {
+        "qmlcolors": {
+            "apparmor": "qmlcolors/qmlcolors.apparmor",
+            "desktop":  "qmlcolors/qmlcolors.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
